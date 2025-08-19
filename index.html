@@ -58,6 +58,7 @@
             type="button"
             class="order-servise-btn"
             id="order-servise-btn"
+            data-modal-open
           >
             <span class="order-btn">Order Service</span>
           </button>
@@ -477,9 +478,9 @@
       </div>
     </footer>
     <!-- modal -->
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-button-close">
+        <button type="button" class="modal-button-close" data-modal-close>
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -559,5 +560,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
