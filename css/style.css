@@ -461,9 +461,11 @@ button {
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #4d5ae5;
   padding: 8px 24px;
@@ -475,9 +477,9 @@ button {
 .foot-sub-btn:focus {
   background-color: #404bbf;
 }
-/* .plane-icon {
+.plane-icon {
   margin-left: 16px;
-} */
+}
 
 .backdrop {
   position: fixed;
@@ -535,6 +537,7 @@ button {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
 }
 
 .icon-close {
@@ -558,6 +561,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 16px;
+  color: #2E2F4;
 }
 .modal-form {
 }
@@ -620,6 +624,7 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
